@@ -1,6 +1,7 @@
 /** @format */
 
 import Link from 'next/link';
+import DarkModeToggle from './DarkModeToggle';
 import styles from '../styles/Nav.module.css';
 const Nav = () => {
 	return (
@@ -11,6 +12,9 @@ const Nav = () => {
 				</li>
 				<li>
 					<Link href='/about'>About</Link>
+				</li>
+				<li>
+					<DarkModeToggle />
 				</li>
 			</ul>
 		</nav>
